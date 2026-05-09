@@ -7,7 +7,7 @@ const MAIN_PASSWORD = "YOUR_MAINBOT_PASSWORD";
 
 const activeBots = [];
 
-// ================= LOAD SAVED BOTS =================
+//// ================= LOAD SAVED BOTS =================
 const db = loadBots();
 
 for(let bot of db.bots){
